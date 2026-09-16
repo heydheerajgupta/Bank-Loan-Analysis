@@ -6,8 +6,6 @@
 
 ### Excel • MySQL • Power BI • Tableau
 
-**Prepared by Dheeraj Gupta**
-
 </p>
 
 <p align="center">
@@ -18,9 +16,19 @@
 
 <img src="https://img.shields.io/badge/MySQL-SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 
-<img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+<img src="https://img.shields.io/badge/Power%20BI-Business%20Intelligence-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
 
-<img src="https://img.shields.io/badge/Tableau-Visualization-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau">
+<img src="https://img.shields.io/badge/Tableau-Data%20Visualization-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau">
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/KPIs-5-5B5EA6?style=flat-square" alt="KPIs">
+
+<img src="https://img.shields.io/badge/Analytics%20Tools-4-00897B?style=flat-square" alt="Tools">
+
+<img src="https://img.shields.io/badge/Loan%20Applications-39%2C717-1565C0?style=flat-square" alt="Applications">
 
 </p>
 
@@ -28,86 +36,142 @@
 
 # 📌 Project Overview
 
-**Bank Loan Analysis** is an end-to-end data analytics project focused on analyzing bank loan data to understand loan applications, loan amounts, funding, payments, loan status, revolving balances, verification status, geographical distribution, home ownership and other important financial patterns.
+**Bank Loan Analysis** is an end-to-end data analytics project focused on analyzing bank loan data and converting raw financial records into meaningful business insights.
 
-The project follows a complete analytics workflow starting from financial loan data and moving through data preparation, Excel analysis, SQL querying, Power BI data modeling, Tableau visualization, KPI analysis and dashboard development.
+The project covers the complete analytics lifecycle, including **data preparation, data cleaning, exploratory analysis, KPI development, SQL querying, data modeling, DAX calculations, visualization, dashboard development and business insights**.
 
-The five official project KPI questions were solved separately using **Excel, MySQL, Power BI and Tableau**. Although the working files are maintained separately for each tool, they represent one common Bank Loan Analysis project and one common KPI framework.
+A key feature of this project is that the **same five official KPI questions were solved independently in all four analytical tools — Excel, MySQL, Power BI and Tableau**.
 
-> 👨‍💻 **Project Author:** Dheeraj Gupta  
-> 📊 **Project Type:** End-to-End Data Analytics  
-> 🛠️ **Tools:** Excel | MySQL | Power BI | Tableau
+This provides multiple analytical perspectives while maintaining a common business-question framework.
 
 ---
 
-# 🎯 Project Objective
+# 🎯 Business Problem
 
-The primary objective of this project is to transform raw bank loan data into meaningful business insights using multiple data analytics tools.
+Banks generate large volumes of loan data containing information about loan applications, loan amounts, funding, payments, loan status, customer characteristics, verification status, geographical location and other financial attributes.
 
-The project focuses on:
+The purpose of this project is to analyze this data and answer important business questions related to:
 
-- 📈 Understanding loan growth over time
-- 💰 Analyzing loan amounts and funding
-- 📊 Understanding loan status distribution
-- 🔄 Analyzing revolving balances by grade and sub-grade
-- ✅ Comparing verified and non-verified payment groups
-- 🌎 Understanding state-wise loan activity
-- 📅 Analyzing month-wise loan status
-- 🏠 Understanding home ownership and payment behavior
-- 📊 Building interactive dashboards
-- 🔎 Validating analytical results across different tools
+- 📈 Loan growth over time
+- 💰 Loan amount and funding
+- 🔄 Revolving balance
+- 📊 Loan status
+- ✅ Verification status
+- 🌎 State-wise loan activity
+- 📅 Month-wise loan status
+- 🏠 Home ownership
+- 💳 Payment behavior
+
+The analysis transforms raw loan records into **structured KPIs, analytical results and interactive dashboards**.
+
+---
+
+# ⭐ Project Highlights
+
+| Feature | Details |
+|---|---|
+| 🏦 Domain | Banking & Finance |
+| 📊 Project Type | End-to-End Data Analytics |
+| 📌 Official KPIs | **5** |
+| 🛠️ Analytics Tools | **4** |
+| 👥 Loan Applications | **39,717** |
+| 📗 Excel | KPI Analysis & Dashboard |
+| 🗄️ MySQL | SQL Analysis & Validation |
+| 📊 Power BI | Data Modeling, DAX & Dashboard |
+| 📈 Tableau | Visualization & Interactive Dashboard |
+
+---
+
+# 🎯 Project Objectives
+
+### 📈 Loan Growth Analysis
+Analyze loan amounts across different years and understand lending trends.
+
+### 🔄 Revolving Balance Analysis
+Analyze revolving balance across loan grades and sub-grades.
+
+### ✅ Verification & Payment Analysis
+Compare total payment between verified and non-verified loan groups.
+
+### 🌎 Geographic & Time Analysis
+Analyze loan status across different states and months.
+
+### 🏠 Home Ownership & Payment Analysis
+Understand last payment behavior across home ownership categories.
+
+### 📊 Interactive Reporting
+Build dashboards that allow users to explore the loan data using filters, slicers and visualizations.
 
 ---
 
 # ⭐ Five Official Project KPIs
 
-The complete project is based on the following five official KPI questions.
+The complete project is based on these five official KPI questions:
 
-| # | KPI Question | Main Analysis |
+| # | KPI Question | Business Area |
 |---|---|---|
-| **01** | 📅 Year-wise Loan Amount Statistics | Loan amount by year |
-| **02** | 🔄 Grade and Sub-grade-wise Revolving Balance | `revol_bal` by grade/sub-grade |
-| **03** | ✅ Verified Status vs Non-Verified Status Payment | Total payment comparison |
-| **04** | 🌎 State-wise and Month-wise Loan Status | Loan status by state and month |
-| **05** | 🏠 Home Ownership vs Last Payment Date Statistics | Payment behavior by home ownership |
-
-These five questions were solved independently in **Excel, SQL, Power BI and Tableau**.
+| **01** | 📅 Year-wise Loan Amount Stats | Loan Growth |
+| **02** | 🔄 Grade and Sub-grade-wise `revol_bal` | Revolving Balance |
+| **03** | ✅ Total Payment for Verified Status Vs Total Payment for Non-Verified Status | Verification & Payment |
+| **04** | 🌎 State-wise and Month-wise Loan Status | Geography & Time |
+| **05** | 🏠 Home Ownership Vs Last Payment Date Stats | Customer & Payment Behavior |
 
 ---
 
-# 🔄 End-to-End Analytics Workflow
+# 🔗 KPI Implementation Across All Tools
+
+One of the main strengths of this project is that **all five KPIs were solved separately in all four tools**.
+
+| KPI | 📗 Excel | 🗄️ MySQL | 📊 Power BI | 📈 Tableau |
+|---|:---:|:---:|:---:|:---:|
+| 📅 Year-wise Loan Amount | ✅ | ✅ | ✅ | ✅ |
+| 🔄 Grade/Sub-grade Revolving Balance | ✅ | ✅ | ✅ | ✅ |
+| ✅ Verified vs Non-Verified Payment | ✅ | ✅ | ✅ | ✅ |
+| 🌎 State & Month-wise Loan Status | ✅ | ✅ | ✅ | ✅ |
+| 🏠 Home Ownership vs Last Payment | ✅ | ✅ | ✅ | ✅ |
+
+### 💡 Why this matters
+
+The project does not depend on a single visualization tool.
+
+The same business questions were approached using:
+
+**Spreadsheet Analysis → SQL Analysis → Business Intelligence → Data Visualization**
+
+This provides a broader demonstration of practical data analytics skills.
+
+---
+
+# 🔄 End-to-End Project Workflow
 
 ```text
-                    🏦 BANK LOAN DATA
-                           │
-                           ▼
-                  📂 DATA PREPARATION
-                           │
-                           ▼
-              ┌─────────────────────────┐
-              │                         │
-              ▼                         ▼
-        📗 EXCEL                    🗄️ MYSQL
-        KPI Analysis               SQL Analysis
-        Calculations               Queries
-        Charts                     Aggregations
-        Dashboard                  Validation
-              │                         │
-              └────────────┬────────────┘
-                           ▼
-                    📊 POWER BI
-                    Data Modeling
-                    DAX Measures
-                    KPI Cards
-                    Slicers
-                    Dashboard
-                           │
-                           ▼
-                    📈 TABLEAU
+                 🏦 RAW BANK LOAN DATA
+                          │
+                          ▼
+                 📂 DATA PREPARATION
+                          │
+                          ▼
+                    🧹 DATA CLEANING
+                          │
+                          ▼
+                  📊 KPI DEFINITION
+                          │
+          ┌───────────────┼───────────────┐
+          ▼               ▼               ▼
+       📗 EXCEL        🗄️ MYSQL       📊 POWER BI
+       Analysis        Queries         Modeling
+       KPIs            Joins           DAX
+       Charts          Aggregation     KPIs
+          │               │               │
+          └───────────────┼───────────────┘
+                          ▼
+                     📈 TABLEAU
                     Visualization
-                    Trends
                     Filters
-                    Dashboard
-                           │
-                           ▼
-                  💡 BUSINESS INSIGHTS
+                    Trends
+                          │
+                          ▼
+                   💡 KEY INSIGHTS
+                          │
+                          ▼
+                  📊 DASHBOARDS
